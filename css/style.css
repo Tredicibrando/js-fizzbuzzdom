@@ -15,23 +15,43 @@ body h1{
     text-align: center;
     color: white;
     padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+section{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 55%;
+    margin: 0 auto;
 }
 
 .box{
     background-color: #1389B2;
-    padding: 20px;
     text-align: center;
     color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
 }
 
-.box--green{
+.box:hover{
+    border: 1px solid #feba05;
+}   
+
+
+.box--fizz{
     background-color: #0BD6A1;
 }
 
-.box--red{
+.box--fizzbuzz{
     background-color: #F0466F;
 }
 
-.box--yellow{
+.box--buzz{
     background-color: #FFD166;
 }
